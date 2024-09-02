@@ -1,0 +1,25 @@
+nilai1=int(input("Masukkan Nilai Siswa="))
+if nilai1>=70:
+    print("Selamat, Anda dinyatakan LULUS")
+else:
+    print("Maaf,Anda Anda dinyatakan TIDAK LULUS")
+nilai2=int(input("Masukkan Nilai Siswa="))
+if nilai2>=70:
+    print("Selamat, Anda dinyatakan LULUS")
+else:
+    print("Maaf,Anda Anda dinyatakan TIDAK LULUS")
+nilai3=int(input("Masukkan Nilai Siswa="))
+if nilai3>=70:
+    print("Selamat, Anda dinyatakan LULUS")
+else:
+    print("Maaf,Anda Anda dinyatakan TIDAK LULUS")
+nilai4=int(input("Masukkan Nilai Siswa="))
+if nilai4>=70:
+    print("Selamat, Anda dinyatakan LULUS")
+else:
+    print("Maaf,Anda Anda dinyatakan TIDAK LULUS")
+nilai5=int(input("Masukkan Nilai Siswa="))
+if nilai5>=70:
+    print("Selamat, Anda dinyatakan LULUS")
+else:
+    print("Maaf,Anda Anda dinyatakan TIDAK LULUS")
