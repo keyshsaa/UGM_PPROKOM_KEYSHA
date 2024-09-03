@@ -1,0 +1,13 @@
+#Program Batu Gunting Kertas
+pilihan=("batu","gunting","kertas")
+pemain1=str(input("masukkan pilihan pemain1:"))
+pemain2=str(input("masukkan pilihan pemain2:"))
+if(pemain1==pemain2):
+    print("Seri")
+elif(
+    (pemain1=="batu" and pemain2=="gunting")or
+    (pemain1=="kertas" and pemain2=="batu")or
+    (pemain1=="gunting" and pemain2=="kertas")):
+            print("Pemain 1 Menang")
+else:
+    print("Pemain 2 Menang")
