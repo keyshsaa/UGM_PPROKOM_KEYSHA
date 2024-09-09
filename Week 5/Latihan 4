@@ -1,0 +1,8 @@
+##Menghitung rata-rata
+jumlah_data=int(input("Masukkan jumlah data yang dimilikki:"))
+total=0
+for i in range(jumlah_data):
+    angka=float(input(f"Masukkan angka ke-{i+1}:"))
+total+=angka
+rata_rata=total/jumlah_data
+print("Rata-rata dari",jumlah_data, "angka adalah",rata_rata)
