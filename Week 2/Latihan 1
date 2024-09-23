@@ -1,6 +1,0 @@
-panjang=100#tipe data integer
-lebar=21.05#tipe darta float
-nama="Umar"#tipe data string
-print(panjang)
-print(lebar)
-print(nama)
