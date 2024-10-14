@@ -1,0 +1,17 @@
+arr = [4, 5, 11, 12, 14, 16, 16, 19]
+prima_array = []
+jumlah_prima = 0
+
+for num in arr:
+    if num > 1:  
+        is_prima = True
+        for i in range(2, num):
+            if num % i == 0:
+                is_prima = False
+                break
+        if is_prima:
+            prima_array.append(num)
+            jumlah_prima += 1
+
+print("Bilangan prima:", prima_array)
+print("Jumlah bilangan prima:", jumlah_prima)
