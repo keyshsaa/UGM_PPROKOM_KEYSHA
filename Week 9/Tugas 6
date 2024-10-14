@@ -1,0 +1,21 @@
+angka=[1,5,4,6,7,12,45,9,99,55,100,88,75,60]
+print(angka)
+
+jumlah_ganjil=0
+jumlah_genap=0
+ganjil=[]
+genap=[]
+
+for i in angka:
+    if i%2==0:
+        jumlah_genap+=1
+        genap.append(i)
+    else:
+        jumlah_ganjil+=1
+        ganjil.append(i)
+    
+print("Ini adalah angka genap:",genap)
+print("Jumlah angka genap:",jumlah_genap)
+print("Ini adalah angka ganjil:",ganjil)
+print("Jumlah angka ganjil:",jumlah_ganjil)
+        
