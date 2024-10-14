@@ -1,0 +1,17 @@
+data=[]
+
+for i in range(5):
+    nilai=float(input("Masukkan nilai ke-{}:".format(i+1)))
+    data.append(nilai)
+    print(data)
+    
+jumlah=sum(data)
+pilihan=str(input("ingin meihat jumlah atau rata rata:"))
+
+if pilihan.lower()=="jumlah":
+    print("Jumlah semua data:",jumlah)
+elif pilihan.lower() =="rata-rata":
+    rata_rata=jumlah/len(data)
+    print("Rata-rata dari semua data:",rata_rata)
+else:
+    print("Pilihan tidak valid")
