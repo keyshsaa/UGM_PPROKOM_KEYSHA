@@ -1,0 +1,3 @@
+array_2d=[[10,12],[14,16],[10,12],[14,16]]
+for baris in array_2d:
+    print(baris[0])
