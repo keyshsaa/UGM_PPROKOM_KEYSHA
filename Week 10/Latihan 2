@@ -1,0 +1,19 @@
+def buat_matriks():
+    """Membuat matriks 2x3 berdasarkan input pengguna."""
+    
+    matriks=[]
+    for i in range(2):
+        baris=[]
+    for j in range (3):
+        nilai=int(input(f"Masukkan nilai ke-[{i}][{j}]:"))
+        baris.append(nilai)
+    matriks.append(baris)
+    return matriks
+    
+def tampilkan_matriks(matriks):
+    """Menampilkan matriks ke layar."""
+    for barisi in matriks:
+        print(baris)
+        
+matriks=buat_matriks()
+tampilkan_matriks(matriks)
