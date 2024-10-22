@@ -1,3 +1,8 @@
-array_2d=[[10,12],[14,16],[10,12],[14,16]]
-for baris in array_2d:
-    print(baris[0])
+array_2d = [[10, 11],
+        [12, 13],
+        [14, 15],
+        [16, 17]
+]
+
+kolom_pertama = [baris[0] for baris in array_2d]
+print(kolom_pertama)
