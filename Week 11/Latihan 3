@@ -6,19 +6,19 @@ def show_data():
         for indeks in range (len(buku)):
             print("[%d]%s"%(indeks,buku[indeks]))
 def insert_data():
-    buku_baru=raw_input("Judul Buku:")
+    buku_baru=input("Judul Buku:")
     buku.append(buku_baru)
 def edit_data():
     show_data()
-    indeks=input("Inputkan ID buku:")
+    indeks=int(input("Inputkan ID buku:"))
     if(indeks>len(buku)):
         print("ID salah")
     else:
-        judul_baru=raw_input("Judul baru:")
+        judul_baru=input("Judul baru:")
         buku[indeks]=judul_baru
 def delete_data():
     show_data()
-    indeks=input("inputkan ID buku:")
+    indeks=int(input("inputkan ID buku:"))
     if(indeks>len(buku)):
         print("ID salah")
     else:
@@ -28,27 +28,23 @@ def show_menu():
     print("---------MENU----------")
     print("[1] Show Data")
     print("[2] Insert Data")
-    print("[3] eddi Data")
+    print("[3] Edit Data")
     print("[4] Delete Data")
-    print("[5] exit")
+    print("[5] Exit")
     menu=input("PILIH MENU>")
-    PRINT("/n")
-    if menu == 1:
+    print("\n")
+    if menu == "1":
         show_data()
-    elif menu == 2:
+    elif menu == "2":
         insert_data()
-    elif menu == 3:
+    elif menu == "3":
         edit_data()
-    elif menu == 4:
+    elif menu == "4":
         delete_data()
-    elif menu == 5:
+    elif menu == "5":
          exit()
     else:
          print ("Salah pilih!")
 if __name__ == "__main__":
  while(True):
     show_menu()
-    
-       
-        
-        
